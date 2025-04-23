@@ -7,7 +7,10 @@ function App() {
   return (
     <>
       <Header />
-      <Translator />
+      <div>
+        <Translator />
+        <button>New Category</button>
+      </div>
     </>
   );
 }
