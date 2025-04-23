@@ -1,5 +1,5 @@
 import React from "react";
-
+import SpeechBox from "./SpeechBox";
 function Table() {
   return (
     <div>
@@ -7,6 +7,7 @@ function Table() {
         <img>Header Caption</img>
         <button>+ Add</button>
       </div>
+      <SpeechBox />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Translator from "./components/Translator";
 import "./App.css";
+import Table from "./components/Table";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Translator />
         <button>New Category</button>
       </div>
+      <Table />
     </>
   );
 }
