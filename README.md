@@ -1,2 +1,1 @@
-# QuickTranslate
-Project for Hackathon
+
