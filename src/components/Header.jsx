@@ -2,11 +2,11 @@ import React from "react";
 
 function Header() {
   return (
-    <div>
-      <div>
+    <div className="header">
+      <div className="logo">
         <h1>QuickChat</h1>
       </div>
-      <div>
+      <div className="language-selector">
         Languages
         <select>
           <option value="en">English</option>

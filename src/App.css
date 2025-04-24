@@ -1,1 +1,59 @@
-rcfe
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.language-selector {
+  margin: 20px;
+}
+
+.translator {
+  display: inline-block;
+  border: #000 solid 5px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+}
+
+.translator-header {
+  display: inline-block;
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.translator input[type="textbox"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 10px 0;
+}
+
+.table {
+  display: inline-block;
+  border: #000 solid 5px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #656565 solid 5px;
+  padding: 10px;
+}
+
+.table-body {
+  padding: 10px;
+}

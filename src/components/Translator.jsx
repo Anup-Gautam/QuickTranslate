@@ -1,13 +1,14 @@
 import React from "react";
+import Button from "@mui/material/Button";
 
 function Translator() {
   return (
-    <div>
-      <div>
-        Real Time Translator
+    <div className="translator">
+      <div className="translator-header">Real Time Translator</div>
+      <div className="translator-body">
         <input type="textbox"></input>
-        <button>Reset</button>
-        <button>Translate</button>
+        <Button>Reset</Button>
+        <Button variant="contained">Translate</Button>
       </div>
     </div>
   );

@@ -3,14 +3,17 @@ import Header from "./components/Header";
 import Translator from "./components/Translator";
 import "./App.css";
 import Table from "./components/Table";
+import Button from "@mui/material/Button";
 
 function App() {
   return (
     <>
       <Header />
-      <div>
+      <div className="app-header">
         <Translator />
-        <button>New Category</button>
+        <div className="header-button">
+          <Button variant="contained"> + New Category</Button>
+        </div>
       </div>
       <Table />
     </>

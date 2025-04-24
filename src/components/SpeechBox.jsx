@@ -1,12 +1,13 @@
 import React from "react";
+import Button from "@mui/material/Button";
 
 function SpeechBox() {
   return (
     <div>
       <div>
         From Language
-        <button>Copy</button>
-        <button>Speak</button>
+        <Button>Copy</Button>
+        <Button>Speak</Button>
       </div>
       <div>To Language</div>
     </div>
